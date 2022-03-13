@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+}
+header {
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px 0 #0006;
+}
+.container {
+    display: flex;
+  
+}
+.logo-img {
+    height: 100px;
+}
+.logo-text {
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+main.container {
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 20px;
+}
+.center {
+    height: 150px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+}
+.card:hover .center {
+    opacity: 1;
+    transition: 1s linear;
+}
+.card {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+}
+.rate {
+    display: flex;
+}
+.rate img {
+    height: 25px;
+}
+footer {
+    font-size: medium;
+}
